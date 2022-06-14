@@ -104,9 +104,9 @@ form input {
   width: 75%;
   display: inline-block;
   border: none;
-  background-color: var(--color-bg-light);
+  /*background-color: var(--color-bg-light);*/
   padding: 10px;
-  color: var(--color-fg);
+  /*color: var(--color-fg);*/
   font-family: var(--font-family);
   font-size: 2vw;
   border-radius: 8px;
