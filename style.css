@@ -20,8 +20,8 @@
 html,
 body {
   overflow: hidden;
-  background: var(--color-bg);
-  color: var(--color-fg);
+  /*background: var(--color-bg);
+  color: var(--color-fg);*/
   font-family: var(--font-family);
   height: 100%;
   width: 100%;
