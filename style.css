@@ -1,14 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);
 
 :root {
-  --color-bg: #2e3440;
-  --color-bg-light: #3b4252;
-  --color-fg: #d8dee9;
+  --color-bg: #1e1e1e;
+  --color-bg-light: #ffffff;
+  --color-fg: #333333;
 
-  --color-link-hover: #8fbcbb;
-  --color-link: #81a1c1;
+  --color-link-hover: #8c977d;
+  --color-link: #8c977d;
 
-  --font-family: "Source Code Pro", monospace;
+  --font-family: /*-apple-system, BlinkMacSystemFont, */ "Source Code Pro",
+    monospace;
 }
 
 * {
@@ -103,7 +104,6 @@ form input {
 
 form input:focus {
   outline: none;
-
 }
 
 footer {
