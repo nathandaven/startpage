@@ -1,3 +1,11 @@
+# My custom startpage
+
+Merging the projects of Tilde and the startpage forked into one. Shout out to the original creators of both!
+
+https://github.com/nathandaven/tilde
+https://github.com/nathandaven/startpage
+
+
 # Startpage <!-- omit in toc --> 
 
 [Live preview (no weather as to not leak API key)](https://startpage.easun.me)
