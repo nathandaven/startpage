@@ -48,6 +48,16 @@ header div#img img {
   width: 25vw;
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+
+  main {
+    width: 90% !important;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;

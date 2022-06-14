@@ -581,8 +581,8 @@
     /* main styles */
 
     .clock {
-        display: block;
-        font-size: var(--clock-font-size);
+        /*display: block;*/
+        /*font-size: var(--clock-font-size);*/
         cursor: pointer;
     }
 
@@ -702,6 +702,7 @@
     <header>
         <div id="img">
             <img src="image.gif" />
+
         </div>
     </header>
 
@@ -715,45 +716,37 @@
                     <input type="text" name="q" autocomplete="off">
                 </form>
                 -->
-                <h1>> welcome <i>nathan</i></h1>
+                <h1>> welcome <i style="color: #8c977d">nathan</i>.</h1>
                 <div id="info">
-                    <p id="weatherDesc">Loading...</p>
+                    <span id="weatherDesc">Loading...</span>, at
+                    <span>
+                        <time class="clock" id="clock" />
+                    </span>
                     <p id="temp">Loading...</p>
                 </div>
             </div>
+
             <div id="links">
                 <section>
-                    <h3>section header</h3>
+                    <h3>productivity</h3>
                     <ul>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
+                        <li><a href="https://gmail.com">gmail</a></li>
+                        <li><a href="https://calendar.google.com">calendar</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h3>section header</h3>
+                    <h3>media</h3>
                     <ul>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
+                        <li><a href="https://youtube.com">youtube</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h3>section header</h3>
+                    <h3>work</h3>
                     <ul>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
+                        <li><a href="https://ncr.com">ncr</a></li>
                     </ul>
                 </section>
-                <section>
-                    <h3>section header</h3>
-                    <ul>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
-                        <li><a href="https://example.com">website text</a></li>
-                    </ul>
-                </section>
+
             </div>
         </div>
     </main>
@@ -776,9 +769,9 @@
         const animated = true;
 
         // Read the documentation for setting the weather API key
-        const apiKey = "[API KEY]";
-        const lat = 40.7127861;
-        const lon = -74.0134275;
+        const apiKey = "904449963dd1c92c21836b8f93e53829";
+        const lat = 33.7490;
+        const lon = -84.3880;
         const units = "imperial";
 
         // ----- DON'T TOUCH ANYTHING BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING
