@@ -1,6 +1,6 @@
 # My custom startpage and Firefox CSS theme
 
-Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [startpage](https://github.com/nathandaven/startpage) forked into one. Shout out to the original creators of both! Confirmed working on MacOS and Windows -- Linux untested.
+Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [startpage](https://github.com/nathandaven/startpage) forked into one. Shout out to the original creators of both! Confirmed working on MacOS and Windows.
 
 ![startpage](preview.gif)
 
