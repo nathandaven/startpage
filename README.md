@@ -1,4 +1,4 @@
-# My custom startpage
+# My custom startpage and Firefox CSS theme
 
 Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [startpage](https://github.com/nathandaven/startpage) forked into one. Shout out to the original creators of both!
 
@@ -26,3 +26,6 @@ https://github.com/nathandaven/tilde
 
 General design:
 https://github.com/nathandaven/startpage
+
+My custom Firefox userChrome.css based on this [project](https://github.com/ranmaru22/firefox-vertical-tabs):
+https://gist.github.com/nathandaven/67f293758f13971882adf334b66db8ed
