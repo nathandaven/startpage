@@ -8,12 +8,6 @@ Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [start
 ## Screenshots
 
 
-![startpage](light-screenshot.png)
-
-
-![startpage](dark-screenshot.png)
-
-
 This repository includes my API key. This repo is made specifically for my use case, but feel free to use this as a base if interested. However, please change the API key bby following the documentation here: https://github.com/nathandaven/startpage.
 
 
