@@ -4,7 +4,7 @@ Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [start
 
 ![startpage](preview.gif)
 
-This repository includes my API key. This repo is made specifically for my use case, but feel free to use this as a base if interested. However, please change the API key bby following the documentation here: https://github.com/nathandaven/startpage.
+This repository includes my API key. The API key is attached to a dummy account, however please refrain from using it. This repo is made specifically for my use case, but feel free to use this as a base if interested. Please change the API key by following the documentation here: https://github.com/nathandaven/startpage.
 
 
 ## Credits
