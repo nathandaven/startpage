@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- TODO:
-    implement search bar : h
+    implement search bar :
       https://github.com/vsedov/page/blob/master/index.html
       https://github.com/voxie12/sup/blob/master/index.html
 -->
@@ -20,9 +20,7 @@
 
   <!-- Gif Image -->
   <header>
-    <div id="img">
-      <img src="./images/image.gif" alt="gif" />
-    </div>
+    <div id="img"></div>
   </header>
 
 
@@ -31,9 +29,12 @@
 
       <!-- Heading -->
       <div id="head">
-
         <!-- New Header -->
-        <h1>> welcome <i style="color: #8c977d">gaël</i>.</h1>
+        <h1>welcome <i style="color: #8c977d">gaël</i></h1>
+        <form action="https://www.google.ch/search?q=">
+          <label for="q" autofocus>&gt; cd ~/<span class="blinking"> _</span></label>
+          <input type="text" name="q" autocomplete="off">
+        </form>
         <div id="info">
           <span id="weatherDesc">Loading...</span>, at
           <span>

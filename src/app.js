@@ -11,15 +11,24 @@ import './app.css';
     document.getElementById('clock').innerHTML = time;
   }
 
-  // function setDay() {
-  //   const day = getDay();
+  function setImage() {
+    const imageNumber = 5;
+    let x = Math.floor(Math.random() * imageNumber + 1);
+    document.getElementById(
+      'img'
+    ).innerHTML = `<img src="./images/image-${x}.gif" alt="gif" />`;
+  }
 
-  //   document.getElementById('day').innerHTML = day;
-  // }
+  function setDay() {
+    const day = getDay();
+
+    document.getElementById('day').innerHTML = day;
+  }
 
   function setupDashboard() {
     // setDay();
     setTime();
+    setImage();
     setInterval(setTime, 1000);
   }
 
