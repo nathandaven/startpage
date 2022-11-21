@@ -1,10 +1,13 @@
 'use strict';
 
-import getCurrentTime from './clock';
-// import getDay from './day';
 import './app.css';
+import dayjs from 'dayjs';
+import getCurrentTime from './clock';
+import getDay from './day';
+import greetPlugin from 'dayjs-greet';
 
 (function () {
+  dayjs.extend(greetPlugin);
   function setTime() {
     const time = getCurrentTime();
 
@@ -19,14 +22,17 @@ import './app.css';
     ).innerHTML = `<img src="./images/image-${x}.gif" alt="gif" />`;
   }
 
-  function setDay() {
+  function setGreetings() {
     const day = getDay();
-
-    document.getElementById('day').innerHTML = day;
+    document.getElementById('greetings').innerHTML = `<h1>${dayjs(
+      day
+    ).greet()}<i style='color: #8c977d'>
+    gael
+    </i></h1>`;
   }
 
   function setupDashboard() {
-    // setDay();
+    setGreetings();
     setTime();
     setImage();
     setInterval(setTime, 1000);

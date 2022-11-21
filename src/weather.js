@@ -1,6 +1,6 @@
 import anime from './anime.min.js';
 const icons = require('./weathericons.json');
-// ----- CHANGE THESE VARIABLES
+const API_KEY = process.env.API_KEY;
 
 // Do you want to show the weather?
 const weather = true;
@@ -8,7 +8,7 @@ const weather = true;
 const animated = true;
 
 // Read the documentation for setting the weather API key
-const apiKey = '';
+const apiKey = API_KEY;
 const lat = 46.519962;
 const lon = 6.633597;
 const units = 'metric';

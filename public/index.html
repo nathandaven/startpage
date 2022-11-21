@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!-- TODO:
     implement search bar :
       https://github.com/vsedov/page/blob/master/index.html
@@ -13,27 +12,23 @@
   <link rel="stylesheet" href="app.css" />
 
   <script src="anime.js"></script>
-
 </head>
 
 <body>
-
   <!-- Gif Image -->
   <header>
     <div id="img"></div>
   </header>
 
-
   <main>
     <div id="content">
-
       <!-- Heading -->
       <div id="head">
         <!-- New Header -->
-        <h1>welcome <i style="color: #8c977d">gaël</i></h1>
+        <div id="greetings"></div>
         <form action="https://www.google.ch/search?q=">
           <label for="q" autofocus>&gt; cd ~/<span class="blinking"> _</span></label>
-          <input type="text" name="q" autocomplete="off">
+          <input type="text" name="q" autocomplete="off" />
         </form>
         <div id="info">
           <span id="weatherDesc">Loading...</span>, at
@@ -49,50 +44,52 @@
         <section>
           <h3>personal</h3>
           <ul>
-            <li><a href="https://gmail.com">gmail</a></li>
-            <li><a href="http://mail.gatech.edu/">gt mail</a></li>
-            <li><a href="https://calendar.google.com/calendar/u/0/r">calendar</a></li>
-            <li><a href="https://google.com/maps">maps</a></li>
-            <li><a href="https://drive.google.com/drive/u/0/my-drive">drive</a></li>
-            <li><a href="https://bank.truist.com/web/home">truist</a></li>
+            <li><a href="https://twitter.com" />twitter</a></li>
+            <li><a href="https://instagram.com" />instagram</a></li>
+            <li><a href="https://www.reddit.com/">reddit</a></li>
+            <li><a href="https://gmail.com" />gmail</a></li>
           </ul>
         </section>
         <section>
           <h3>media</h3>
           <ul>
             <li><a href="https://youtube.com">youtube</a></li>
-            <li><a href="https://reddit.com">reddit</a></li>
-            <li><a href="https://web.spotify.com">spotify</a></li>
-            <li><a href="https://soundcloud.com/discover">soundcloud</a></li>
-            <li><a href="https://twitter.com">twitter</a></li>
-            <li><a href="https://instagram.com">instagram</a></li>
+            <li><a href="https://netflix.com">netflix</a></li>
+            <li><a href="https://soundcloud.com">soundcloud</a></li>
           </ul>
         </section>
         <section>
-          <h3>productivity</h3>
+          <h3>tech</h3>
           <ul>
-            <li><a href="https://ncr.com">ncr</a></li>
-            <li><a href="https://github.com/nathandaven?tab=repositories">github</a></li>
-            <li><a href="https://teams.microsoft.com">teams</a></li>
-            <li><a href="https://www.notion.so">notion</a></li>
-            <li><a href="https://www.figma.com/files/recent">figma</a></li>
-            <li><a href="http://localhost:3000">localhost</a></li>
+            <li>
+              <a href="https://github.com/">github</a>
+            </li>
+            <li><a href="https://korben.info">korben</a></li>
+            <li><a href="https://www.xda-developers.com/">xda</a></li>
+            <li><a href="https://app.daily.dev/">daily.dev</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>shop</h3>
+          <ul>
+            <li>
+              <a href="https://www.digitec.ch/">digitec</a>
+            </li>
+            <li>
+              <a href="https://www.qoqa.ch/">qoqa</a>
+            </li>
+            <li><a href="https://www.microspot.ch/fr">microspot</a></li>
+            <li><a href="https://deals.gothuey.dev/deals">deals</a></li>
           </ul>
         </section>
       </div>
     </div>
   </main>
 
-
-
-
-
   <script src="app.js"></script>
   <script src="config.js"></script>
   <script src="search.js"></script>
   <script src="weather.js"></script>
-
-
 
   <!--
       This HTML file is a template for overriding pages like New Tab, Bookmarks, or History page.

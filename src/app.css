@@ -1,7 +1,5 @@
 /*@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro);*/
 
-
-
 :root {
   --color-bg: #1e1e1e;
   --color-bg-light: #ffffff;
@@ -11,8 +9,7 @@
   --color-link: #8c977d;
 
   --font-family:
-    /*-apple-system, BlinkMacSystemFont, */
-    "Source Code Pro",
+    /*-apple-system, BlinkMacSystemFont, */ 'Source Code Pro',
     monospace;
 }
 
@@ -176,11 +173,6 @@ a:hover {
   }
 }
 
-
-
-
-
-
 /* themes */
 
 .ashes-dark {
@@ -267,13 +259,12 @@ a:hover {
   }
 }
 
-
 /* root variables */
 
 :root {
   --base-border-radius: 6px;
-  --base-font-family: var(--font-family), -apple-system, BlinkMacSystemFont, Helvetica Neue,
-    Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
+  --base-font-family: var(--font-family), -apple-system, BlinkMacSystemFont,
+    Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
   --base-font-size: 17px;
   --base-font-weight-black: 900;
   --base-font-weight-bold: 700;
@@ -380,7 +371,7 @@ a:focus {
   height: 100%;
 }
 
-.center>* {
+.center > * {
   margin: auto;
 }
 
@@ -512,68 +503,72 @@ body.color .search-suggestion.highlight {
   font-weight: var(--base-font-weight-normal);
 }
 
-
-
 /* cyrillic-ext */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMRrSlcZZJmOpwVS.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMRrSlcZZJmOpwVS.woff')
+    format('woff');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
     U+FE2E-FE2F;
 }
 
 /* cyrillic */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtM1rSlcZZJmOpwVS.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtM1rSlcZZJmOpwVS.woff')
+    format('woff');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* greek-ext */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMVrSlcZZJmOpwVS.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMVrSlcZZJmOpwVS.woff')
+    format('woff');
   unicode-range: U+1F00-1FFF;
 }
 
 /* greek */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMprSlcZZJmOpwVS.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMprSlcZZJmOpwVS.woff')
+    format('woff');
   unicode-range: U+0370-03FF;
 }
 
 /* latin-ext */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMdrSlcZZJmOpwVS.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMdrSlcZZJmOpwVS.woff')
+    format('woff');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
     U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* latin */
 @font-face {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrSlcZZJmOpw.woff") format("woff");
+  src: url('../public/fonts/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrSlcZZJmOpw.woff')
+    format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
 
 .bg-container {
-  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+  background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
   width: 100%;
   height: 100%;
   border: 5px solid red;
