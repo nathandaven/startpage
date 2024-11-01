@@ -4,7 +4,7 @@ Merging the projects of [Tilde](https://github.com/nathandaven/tilde) and [start
 
 ![startpage](preview.gif)
 
-This repository includes my API key. The API key is attached to a dummy account, however please refrain from using it. This repo is made specifically for my use case, but feel free to use this as a base if interested. Please change the API key by following the documentation here: https://github.com/nathandaven/startpage.
+This repository includes my API key. The API key is attached to a dummy account, however please refrain from using it. Please go make your own and rebuild for long term use!
 
 Firefox extension is compiled and signed using web-ext. Please read the documentation on web-ext if you are interested in creating and signing your own version of this project.
 
