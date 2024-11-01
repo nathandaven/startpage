@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "web-ext": "^7.0.0"
+  },
+  "scripts": {
+    "build": "web-ext build",
+    "sign": "web-ext sign --channel=unlisted --api-key=${AMO_JWT_ISSUER} --api-secret=${AMO_JWT_SECRET}",
+    "lint": "web-ext lint"
   }
 }
